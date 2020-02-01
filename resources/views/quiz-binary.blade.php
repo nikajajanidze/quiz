@@ -24,7 +24,7 @@
             </div>
             <div class="modal-footer">
                 <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
-                <button id="nextQuestion" type="button" class="btn btn-primary">next</button>
+                <button id="nextQuestion" type="button" class="btn btn-primary">OK</button>
             </div>
             </div>
         </div>
