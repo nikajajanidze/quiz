@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+button {
+    box-shadow: none; 
+}
+.block {
+    border: 2px solid #000;
+}
+.block__header {
+
+}
+.block__header-item {
+    width: 100%;
+    background-color: gray;
+    padding: 15px 10px;
+    color: #000;
+}
+.block__header-item:hover {
+    color: #000;
+}
+.block__header-item--active {
+    background-color: #ccc;
+}
+.block__content {
+    padding: 15px;
+    display: none;
+}
+.block__content.result {
+    padding: 50px 20px;
+}
+.block__content.active {
+    display: block;
+}
+.block__title {
+    font-size: 22px;
+}
+.block__question {
+    background-color: #bb0a0a99;
+    padding: 10px;
+    border-radius: 10px;
+}
+.block__answer {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+.block__answer-item {
+    width: 70px;
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+.block__answer-item--no {
+    background-color: red;
+}
+.block__answers-container {
+    width: 80%;
+    margin: auto;
+}
+.block__answer-type-2 {
+    padding: 5px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background-color: #9999;
+}
+.block__answer-type-2 {
+    padding: 5px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background-color: #9999;
+    border-radius: 3px;
+}
+.try-btn {
+    padding: 10px 15px;
+    text-align: center;
+    background-color: #999;
+}
