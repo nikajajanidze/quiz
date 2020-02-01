@@ -10,7 +10,7 @@ class Settings extends Model
 
 
     protected $fillable = [
-        'id', 'key', 'value', 'created_at'
+        'id', 'key', 'value'
     ];
 
 }
